@@ -1,0 +1,36 @@
+.header {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: rgb(243, 213, 223);
+  border-radius: 0.6rem;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-size: 1rem;
+}
+.header_txt{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header_txt a{
+  text-decoration: none;
+  color: rgb(89, 138, 243);
+}
+
+  .close:before, .close:after {
+    position: absolute;
+    right: 1.5rem; 
+    top: 1rem;
+    content: ' ';
+    height: 1.1rem;
+    width: 0.1rem;
+    background-color:#ec0000;
+    cursor: pointer;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }

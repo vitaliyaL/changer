@@ -1,0 +1,20 @@
+.table_container{
+    max-height: 22rem;
+    overflow: scroll;
+    font-weight: 600;
+}
+.red{
+    color: red;
+}
+.green{
+    color: rgb(2, 177, 2);
+}
+.icon_txt{
+    display: flex;
+}
+.fullname{
+    color: gray;
+}
+.name_fullname{
+    margin-left: 0.8rem;
+}

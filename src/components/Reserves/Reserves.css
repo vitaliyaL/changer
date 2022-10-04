@@ -1,0 +1,55 @@
+.coins{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    max-height: 28rem;
+}
+.btc, .ltc,.qiwi,.tezer,.dash,.xmr,.visa,.etc,.bnb{
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(255, 245, 245);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border: 0.3px solid rgb(185, 185, 185);
+    margin: 1.5rem 5rem 0.5rem 5rem;
+}
+.coin_txt{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.coin{
+    border: 0.5px solid  rgb(185, 185, 185);
+    margin: 1.5rem ;
+    border-radius: 0.6rem;
+    background-color: white;
+}
+.btc{
+    background-image: url(../../../public/assets/btc.png);
+}
+.ltc{
+    background-image: url(../../../public/assets/ltc.png);
+}
+.etc{
+    background-image: url(../../../public/assets/etc.png);
+}
+.dash{
+    background-image: url(../../../public/assets/dash.png);
+}
+.xmr{
+    background-image: url(../../../public/assets/xmr.png);
+}
+.qiwi{
+    background-image: url(../../../public/assets/qiwi.png);
+}
+.tezer{
+    background-image: url(../../../public/assets/tezer.png);
+}
+.visa{
+    background-image: url(../../../public/assets/visa.png);
+}
+.bnb{
+    background-image: url(../../../public/assets/bnb.png);
+}

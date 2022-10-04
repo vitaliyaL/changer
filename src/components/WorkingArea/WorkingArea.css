@@ -1,0 +1,54 @@
+.area {
+  width: 80%;
+  /* max-height: 33rem; */
+  /* min-height: 100vh; */
+  max-height: 70%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  background-color: rgba(245, 245, 245, 0.71);
+  border-radius: 0.6rem;
+  display: flex;
+  justify-content: space-between;
+  font-family: monospace, sans-serif;
+  font-size: 1rem;
+}
+.left_area {
+  margin: 2rem;
+  width: 25%;
+}
+.right_area{
+    width:75%;
+}
+.exchange,
+.reserves,
+.telegram,
+.working24 {
+  display: flex;
+  width: 100%;
+  padding: 1rem;
+  background-color: #fff7eb;
+  border-radius: 0.6rem;
+  color: #fa9405;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  margin-bottom: 1rem;
+}
+.exchange p,
+.reserves p,
+.telegram p,
+.working24 a {
+  padding-left: 1.3rem;
+  text-decoration: none;
+  color: rgb(100, 100, 100);
+}
+.telegram,
+.working24 {
+  text-decoration: none;
+  background-color:transparent;
+  border: 1px solid rgb(180, 178, 178);
+  color: rgb(100, 100, 100);
+  
+}
+.telegram{
+    margin-top: 8rem;
+}

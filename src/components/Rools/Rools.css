@@ -1,0 +1,12 @@
+.rools_txt{
+    color: black;
+    overflow-y:scroll;
+    margin: 2rem;
+    line-height: 1.3rem;
+  font-size: 0.8rem;
+  max-height: 28rem;
+}
+.rools_txt a{
+    text-decoration: none;
+    color: rgb(89, 138, 243);
+}

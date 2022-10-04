@@ -1,0 +1,9 @@
+.warning_txt{
+  margin: 2rem;
+  line-height: 1.3rem;
+font-size: 0.8rem;
+}
+.warning_txt a{
+    text-decoration: none;
+    color: rgb(89, 138, 243);
+}
