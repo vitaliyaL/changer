@@ -9,6 +9,7 @@ import {useState} from 'react'
 function InputArea({defaultCurVal, defaultCur}) {
     const [currency, setCurrency] = useState(defaultCur);
     const [currencyVal, setCurrencyVal] = useState(defaultCurVal);
+		console.log('asdsad',currencyVal)
   const handleChange = (event) => {
     setCurrency(event.target.value);
   };
